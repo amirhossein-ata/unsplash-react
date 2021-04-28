@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Search from "./Search";
+import ImagesList from "./ImagesList";
 
 function App() {
   return (
-    <div className="App">
-      <div className="flex">
-        <div className="h-6 w-6 bg-gray-100"></div>
-        <div className="h-6 w-6 bg-red-200"></div>
+    <div className="p-6 bg-gray-200 min-h-screen flex flex-col items-center">
+      <div className="w-4/5">
+        <Search />
+        <ImagesList />
       </div>
     </div>
   );
